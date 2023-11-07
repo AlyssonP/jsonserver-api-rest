@@ -5,6 +5,7 @@ import "./styles/App.css"
 function App() {
 	return (
 		<>
+		{/* Header da página */}
 			<header>
 				<div className='header__content'>
 					<div className='logo'>
@@ -13,7 +14,9 @@ function App() {
 					</div>
 				</div>
 			</header>
+			{/* Main da página */}
 			<main>
+				{/* Componente principal da aplicação onde será feito o crud de usuários. */}
 				<CrudUser />
 			</main>
 		</>
